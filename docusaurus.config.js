@@ -83,6 +83,11 @@ const tools = [
     name: 'Svelte + Webmonetization',
     image: 'svelte_webmo_logo.svg',
     link: 'https://github.com/sorxrob/svelte-monetization'
+  },
+  {
+    name: 'Moodle + Webmonetization',
+    image: 'moodle_webmo_logo.png',
+    link: 'https://github.com/andrewhancox/moodle-local_webmonetization'
   }
 ]
 
@@ -147,7 +152,8 @@ const siteConfig = {
           items: [
             { label: 'Home', to: '/' },
             { label: 'Meta Tag Generator', to: '/meta-tag' },
-            { label: 'Revshare Generator', to: '/prob-revshare' }
+            { label: 'Revshare Generator', to: '/prob-revshare' },
+            { label: 'Exclusive Content Generator', to: '/exclusive-content' }
           ]
         },
         {
